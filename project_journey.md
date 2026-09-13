@@ -111,7 +111,7 @@ Document Chunks
 
 ## Phase 5: Azure OpenAI Integration
 
-Status: Pending
+Status: Completed
 
 Module:
 
