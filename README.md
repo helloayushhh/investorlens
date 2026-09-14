@@ -31,6 +31,9 @@ the goal is to bring company research, financial analysis, and useful insights i
 
 project setup / development
 
-## note
+## author
 
 this is an active project and the product, features, and implementation may change as development progresses.
+
+see you in the next build
+---aps
