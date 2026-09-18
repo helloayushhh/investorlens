@@ -1,39 +1,80 @@
 # investorlens
 
-exploring ai-powered investment research and analysis.
+an ai-powered investor intelligence platform for financial document research and analysis.
 
 ## project status
 
 🚧 active development
 
+**current phase:** phase 6 — azure ai search integration
+
 ## about
 
-investorlens is a project exploring how ai can make investment research simpler, faster, and more structured.
+investorlens explores how ai, semantic search, and financial documents can be combined to make investment research more structured and accessible.
 
-the goal is to bring company research, financial analysis, and useful insights into one place.
+the current implementation focuses on building the document ingestion and retrieval foundation.
 
-## what i'm exploring
+## current capabilities
 
-* company research
-* financial data analysis
-* ai-assisted insights
-* investment decision support
-* research workflow automation
+* annual report processing
+* pdf to markdown conversion
+* semantic document chunking
+* azure openai embeddings
+* azure ai search
+* vector search
+* metadata filtering
+
+## technology stack
+
+* **python 3.12**
+* **fastapi** *(planned)*
+* **azure openai**
+* **azure ai search**
+* **langchain**
+* **pymupdf4llm**
+* **uv**
+
+## project structure
+
+```text
+investorlens/
+├── docs/
+├── ingestion/
+├── llm/
+├── vectorstore/
+├── .dockerignore
+├── .gitignore
+├── project_journey.md
+├── README.md
+└── requirements.txt
+```
 
 ## documentation
 
-* brd
-* prd
-* trd
-* project journey
+* **brd** — business requirements
+* **prd** — product requirements
+* **trd** — technical requirements
+* **architecture diagrams**
+* **project journey**
 
-## current phase
+see `docs/` and `project_journey.md` for the complete project documentation.
 
-project setup / development
+## what's next
 
-## author
+the upcoming phases include:
 
-this is an active project and the product, features, and implementation may change as development progresses.
+* kpi extraction
+* database integration
+* fastapi backend
+* frontend
+* rag research pipeline
+* containerization
+* aks deployment
 
-see you in the next build
----aps
+these features are planned and are not part of the current implementation.
+
+---
+
+see you in the next phase.
+
+— aps
