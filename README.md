@@ -34,9 +34,9 @@ The project uses annual reports as its primary data source and explores how docu
 
 <h2 align="center">progress</h2>
 
-**🚧 active development · phase 5 / 14**
+**🚧 active development · phase 9 / 14**
 
-**current phase:** project configuration
+**current phase:** PostgreSQL metrics integration
 
 The detailed implementation progress is maintained in [`project_journey.md`](project_journey.md).
 
@@ -51,6 +51,7 @@ The detailed implementation progress is maintained in [`project_journey.md`](pro
 | **Semantic chunking** | LangChain SemanticChunker |
 | **AI & embeddings** | Azure OpenAI |
 | **Search & retrieval** | Azure AI Search |
+| **Database** | PostgreSQL |
 | **Package management** | UV |
 
 ---
@@ -72,6 +73,13 @@ investorlens/
 ├── config/
 │   └── settings.yaml
 │
+├── database/
+│   ├── __init__.py
+│   ├── create_table.py
+│   ├── metrics.py
+│   ├── postgres_sql.py
+│   └── save_metrics.py
+|
 ├── ingestion/
 │   ├── __init__.py
 │   ├── ingest_documents.py
