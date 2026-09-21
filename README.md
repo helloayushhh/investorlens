@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="#overview">overview</a> ·
-  <a href="#current-capabilities">current capabilities</a> ·
+  <a href="#progress">progress</a> ·
   <a href="#technology">technology</a> ·
   <a href="#project-structure">project structure</a> ·
   <a href="#documentation">documentation</a> ·
@@ -28,22 +28,17 @@
 
 **InvestorLens** is an AI-powered investor intelligence platform being developed to simplify financial research and analysis.
 
-The project uses annual reports as its primary data source and explores how document processing, semantic search, and AI can turn large financial reports into searchable research knowledge.
+The project uses annual reports as its primary data source and explores how document processing, semantic search, and AI can turn financial reports into searchable knowledge and structured insights.
 
 ---
 
-<h2 align="center">current capabilities</h2>
+<h2 align="center">progress</h2>
 
-The completed implementation currently covers the document processing and retrieval foundation.
+**🚧 active development · phase 5 / 14**
 
-- annual report processing
-- PDF to markdown conversion
-- semantic document chunking
-- Azure OpenAI integration
-- embedding generation
-- Azure AI Search integration
-- vector search
-- metadata filtering
+**current phase:** project configuration
+
+The detailed implementation progress is maintained in [`project_journey.md`](project_journey.md).
 
 ---
 
@@ -74,6 +69,9 @@ investorlens/
 │   ├── Physical-architecture.drawio
 │   └── Presentation.pptx
 │
+├── config/
+│   └── settings.yaml
+│
 ├── ingestion/
 │   ├── __init__.py
 │   ├── ingest_documents.py
@@ -100,8 +98,6 @@ investorlens/
 
 <h2 align="center">documentation</h2>
 
-The project is documented throughout its development.
-
 - **BRD** — business requirements and project scope
 - **PRD** — product requirements and user flows
 - **TRD** — technical requirements and implementation direction
@@ -109,49 +105,32 @@ The project is documented throughout its development.
 - **Project Journey** — phase-by-phase development progress
 - **Presentation** — project overview
 
-The detailed documentation is available in `docs/` and `project_journey.md`.
+Detailed documentation is available in `docs/` and `project_journey.md`.
 
 ---
 
 <h2 align="center">roadmap</h2>
 
-The project is being developed across **13 planned phases**.
+The platform is being developed across 14 phases:
 
-### completed
-
-**phases 1–6**
-
-- project planning
-- dataset preparation
-- PDF to markdown conversion
-- semantic chunking
-- Azure OpenAI integration
-- Azure AI Search integration
-
-### upcoming
-
-**phases 7–13**
-
-- KPI extraction
-- Azure SQL integration
-- FastAPI backend
-- React frontend
-- RAG research pipeline
-- containerization
-- AKS deployment
-
----
-
-<h2 align="center">current status</h2>
-
-**🚧 active development**
-
-The document processing and retrieval foundation is currently complete through **phase 6 — Azure AI Search integration**.
-
-The remaining analytics, application, RAG, and cloud deployment layers are being developed in subsequent phases.
+1.  project planning
+2.  dataset preparation
+3.  PDF to markdown conversion
+4.  semantic chunking
+5.  project configuration
+6.  Azure OpenAI integration
+7.  Azure AI Search integration
+8.  KPI extraction and RAG
+9.  PostgreSQL metrics integration
+10. FastAPI backend
+11. investor dashboard
+12. containerization
+13. AKS deployment
+14. CI/CD automation
 
 ---
 
 See you in the next phase.
 
 **— aps**
+
